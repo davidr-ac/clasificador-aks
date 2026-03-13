@@ -22,4 +22,6 @@ jobs:
       with:
         context: .
         push: true
-        tags: ${{ secrets.ACR_LOGIN_SERVER }}/clasificador:v2
+        tags: ${{ secrets.ACR_LOGIN_SERVER }}/clasificador:v3
+
+	

@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: clasificador-dl
-        image: acraksm2.azurecr.io/clasificador:v2
+        image: acraksm2.azurecr.io/clasificador:v3
 
         ports:
         - containerPort: 5000

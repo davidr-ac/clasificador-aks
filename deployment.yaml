@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
       - name: clasificador-dl
-        image: python:3.8-slim
+        image: acraksm2.azurecr.io/clasificador:v2
+
         ports:
         - containerPort: 5000
 ---
